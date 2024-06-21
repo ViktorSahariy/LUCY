@@ -1,0 +1,151 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: url(./img/vecteezy_sport-car-on-black-background-illustration_22862529.jpg);
+	background-size: cover;
+}
+
+.container_form {
+	display: flex;
+	border-radius: 20px;
+	box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
+	height: 500px;
+	max-width: 900px;
+	transition: all 1s ease;
+	margin: 10px;
+}
+
+.information {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	background-color: #565565;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.info_childs {
+	width: 100%;
+	padding: 0 30px;
+}
+
+.info_childs h2 {
+	font-size: 2.5rem;
+}
+
+.info_childs p {
+	margin: 15px 0;
+	color: #fff;
+}
+
+.info_childs input {
+	background-color: transparent;
+	outline: none;
+	border: solid 2px #c29436;
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: #c29436;
+	cursor: pointer;
+	transition: background-color .3s ease;
+}
+
+.info_childs input:hover {
+	background-color: #c29436;
+	border: none;
+	color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.form_information {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+	background-color: #f8f8f8;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.form_information_childs {
+	padding: 0 30px;
+}
+
+.form_information_childs h2 {
+	color: #333;
+	font-size: 2rem;
+}
+
+.form_information_childs p {
+	color: #555;
+}
+
+.icons {
+	margin: 15px 0;
+}
+
+.icons i {
+	border-radius: 50%;
+	padding: 15px;
+	margin: 0 10px;
+	color: #9191bd;
+	transition: background-color .3s ease;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+	cursor: pointer;
+}
+
+.icons i:hover {
+	background-color: #c29436;
+	color: #555;
+}
+
+.form {
+	margin: 30px 0 0 0;
+}
+
+.form label {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	border-radius: 20px;
+	padding: 0 10px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.form label input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	color: #333;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+
+.form label i {
+	color: #a7a7a7;
+}
+
+.form input[type="submit"] {
+	background-color:  #c29436;
+	color: #fff;
+	border-radius: 20px;
+	border: none;
+	padding: 10px 15px;
+	margin-top: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.form input[type="submit"]:hover {
+	background-color: #f8f8f8;
+	color: #333;
+}
