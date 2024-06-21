@@ -33,6 +33,8 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 	transition: background-color 0.3s, transform 0.3s; /* Efecto de transición */
   box-shadow: 0 0 5px rgba(255, 215, 0, 0.5), /* Sombra pequeña */
               0 0 10px rgba(255, 215, 0, 0.5), /* Sombra mediana */
@@ -152,7 +154,7 @@ body {
 }
 
 .form input[type="submit"] {
-  background-color: #9191bd;
+  background-color:  rgba(255, 215, 0, 0.5);
   color: #fff;
   border-radius: 20px;
   border: none;
@@ -163,7 +165,7 @@ body {
 }
 
 .form input[type="submit"]:hover {
-  background-color: #7a7a9a;
+  background-color: rgba(255, 215, 0, 0.5);
 }
 
 .hide {
@@ -230,8 +232,8 @@ body {
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 		background-color: rgba(255, 215, 0, 0.3);
   }
 
