@@ -149,3 +149,37 @@ body {
 	background-color: #f8f8f8;
 	color: #333;
 }
+
+/* RESPONSIVE FORM */
+
+@media screen and (max-width:750px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:580px) {
+	html {
+		font-size: 10px;
+	}
+
+	.container_form {
+		height: auto;
+		flex-direction: column;
+	}
+
+	.information {
+		width: 100%;
+		padding: 20px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	.form_information {
+		width: 100%;
+		padding: 20%;
+		border-bottom-left-radius: 20px;
+		border-top-right-radius: 0px;
+	}
+}
