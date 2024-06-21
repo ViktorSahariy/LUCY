@@ -34,10 +34,10 @@ body {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 	transition: background-color 0.3s, transform 0.3s; /* Efecto de transición */
-  box-shadow: 0 0 5px #c39bd3, /* Sombra pequeña */
-              0 0 10px #c39bd3, /* Sombra mediana */
-              0 0 20px #c39bd3, /* Sombra grande */
-              0 0 40px #c39bd3; /* Sombra muy grande */
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.5), /* Sombra pequeña */
+              0 0 10px rgba(255, 215, 0, 0.5), /* Sombra mediana */
+              0 0 20px rgba(255, 215, 0, 0.5), /* Sombra grande */
+              0 0 40px rgba(255, 215, 0, 0.5); /* Sombra muy grande */
 }
 
 
@@ -60,16 +60,17 @@ body {
 .info-childs input {
   background-color: transparent;
   outline: none;
-  border: solid 2px #9191bd;
+  border: solid 2px #000000;
   border-radius: 20px;
   padding: 10px 20px;
-  color: #9191bd;
+	font-weight: 600;
+  color: #000000;
   cursor: pointer;
   transition: background-color .3s ease;
 }
 
 .info-childs input:hover {
-  background-color: #9191bd;
+  background-color: #000000;
   border: none;
   color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
@@ -87,27 +88,16 @@ body {
   padding: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra sutil */
   color: #ecf0f1;
+	/* box-shadow: 0 0 10px #a569bd, /* Sombra pequeña */
+	0 0 20px #a569bd, /* Sombra mediana */
+	0 0 40px #a569bd, /* Sombra grande */
+	0 0 80px #a569bd; /* Sombra muy grande */
+  transform: scale(1.05); Aumenta ligeramente el tamaño */
 	
 }
 
 .form-information-childs {
   padding: 0 30px;
-}
-
-button.login-button {
-  background-color: #c39bd3; /* Color elegante */
-  color: #fff; /* Color del texto blanco */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 30px; /* Bordes más redondeados */
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s; /* Efecto de transición */
-  box-shadow: 0 0 5px #c39bd3, /* Sombra pequeña */
-              0 0 10px #c39bd3, /* Sombra mediana */
-              0 0 20px #c39bd3, /* Sombra grande */
-              0 0 40px #c39bd3; /* Sombra muy grande */
 }
 
 .form-information-childs h2 {
