@@ -87,13 +87,7 @@ body {
   border-bottom-right-radius: 20px;
   padding: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  color: #ecf0f1;
-	/* box-shadow: 0 0 10px #a569bd, /* Sombra pequeña */
-	0 0 20px #a569bd, /* Sombra mediana */
-	0 0 40px #a569bd, /* Sombra grande */
-	0 0 80px #a569bd; /* Sombra muy grande */
-  transform: scale(1.05); Aumenta ligeramente el tamaño */
-	
+  color: #ecf0f1;	
 }
 
 .form-information-childs {
@@ -101,12 +95,12 @@ body {
 }
 
 .form-information-childs h2 {
-  color: #fff;
+  color: rgba(255, 215, 0, 0.5);
   font-size: 2rem;
 }
 
 .form-information-childs p {
-  color: #fff;
+  color: rgba(255, 215, 0, 0.5);
 }
 
 .icons {
@@ -118,8 +112,8 @@ body {
   padding: 15px;
   cursor: pointer;
   margin: 0 10px;
-  color: #9191bd;
-  border: solid thin #9191bd;
+  color: rgba(255, 215, 0, 0.5);
+  border: solid thin rgba(255, 215, 0, 0.5);
   transition: background-color 0.3s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
