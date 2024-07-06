@@ -10,7 +10,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(img/vecteezy_a-white-vintage-classic-car-race-speed-elegance-theme_24483595.jpg);
+    /* background-image: url(img/wooden-floor-1853417_1280.jpg); */
+    background-color: #2e2e2e;
+    color: #d3d3d3;
     background-size: cover;
 }
 
@@ -29,17 +31,13 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  background-color: rgba(255, 215, 0, 0.5); /* Золотий колір з прозорістю 50% */
+  background-color: #ffa722; /* Золотий колір з прозорістю 50% */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 0px;
 	transition: background-color 0.3s, transform 0.3s; /* Efecto de transición */
-  box-shadow: 0 0 5px rgba(255, 215, 0, 0.5), /* Sombra pequeña */
-              0 0 10px rgba(255, 215, 0, 0.5), /* Sombra mediana */
-              0 0 20px rgba(255, 215, 0, 0.5), /* Sombra grande */
-              0 0 40px rgba(255, 215, 0, 0.5); /* Sombra muy grande */
 }
 
 
@@ -50,23 +48,23 @@ body {
 
 .info-childs h2 {
   font-size: 2.5rem;
-  color: #000000;
+  color: #fff;
 }
 
 .info-childs p {
   margin: 15px 0 ;
-  color: #000000;
+  color: #fff;
 	font-weight: 600;
 }
 
 .info-childs input {
   background-color: transparent;
   outline: none;
-  border: solid 2px #000000;
+  border: solid 2px #fff;
   border-radius: 20px;
   padding: 10px 20px;
 	font-weight: 600;
-  color: #000000;
+  color: #fff;
   cursor: pointer;
   transition: background-color .3s ease;
 }
@@ -88,21 +86,22 @@ body {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   padding: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  color: #ecf0f1;	
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);     
+  
 }
+
 
 .form-information-childs {
   padding: 0 30px;
 }
 
 .form-information-childs h2 {
-  color: rgba(255, 215, 0, 0.5);
+  color: #fff;
   font-size: 2rem;
 }
 
 .form-information-childs p {
-  color: rgba(255, 215, 0, 0.5);
+  color: #fff;
 }
 
 .icons {
@@ -114,15 +113,16 @@ body {
   padding: 15px;
   cursor: pointer;
   margin: 0 10px;
-  color: rgba(255, 215, 0, 0.5);
-  border: solid thin rgba(255, 215, 0, 0.5);
+  color: #1e90ff;
+  border: solid thin #1e90ff;
   transition: background-color 0.3s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
 .icons i:hover {
-  background-color: #c7c7f3;
-  color: #fff;
+  box-shadow: 0 2px 5px  #ff4500;
+  /* background-color: #333; */
+  color:  #ff4500;
 }
 
 .form {
@@ -154,7 +154,7 @@ body {
 }
 
 .form input[type="submit"] {
-  background-color:  rgba(255, 215, 0, 0.5);
+  background-color:  #fff;
   color: #000;
 	font-weight: 600;
   border-radius: 20px;
@@ -166,7 +166,8 @@ body {
 }
 
 .form input[type="submit"]:hover {
-  background-color: rgba(255, 215, 0, 0.5);
+  background-color:  #1e90ff;
+  color: #fff;
 }
 
 .hide {
@@ -186,6 +187,8 @@ body {
 .form > .alerta-error,
 .form > .alerta-exito {
   display: none;
+  margin-top: 20px;
+  color: red;
 }
 
 .form .alertaError {
@@ -230,6 +233,7 @@ body {
 
   .information {
     width: 100%;
+    margin-top: 20px;
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -238,10 +242,33 @@ body {
 		background-color: rgba(255, 215, 0, 0.3);
   }
 
+  .info-childs {
+    padding: 0 5px;
+  }
+
+  .info-childs h2 {
+    font-size: 1.5rem;
+  }
+
   .form-information {
     width: 100%;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 0;
   }
+
+  .form-information-childs {
+    padding: 0 20px;
+  }
+
+  .form-information-childs h2 {
+    font-size: 1.5rem;
+  }
+
+  .icons i {
+    padding: 13px;
+  }
 }
+
+
+/* DESHBOARD */

@@ -9,49 +9,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
-    <title>LUCY</title>
+    <title>NEPTUN</title>
 </head>
 <body>
     <div class="container-form register">
         <div class="information">
             <div class="info-childs">
-                <h2>Bienvenido</h2>
-                <p>Para unirte a nuestra comunidad por favor Inicia Sesión con tus datos</p>
-                <input  type="button" value="Iniciar Sesión" id="sign-in">
+                <h2>Ласкаво просимо</h2>
+                <p>Щоб приєднатися до нашої спільноти, будь ласка, увійдіть зі своїми даними</p>
+                <input  type="button" value="Увійти" id="sign-in">
             </div>
         </div>
         <div class="form-information">
             <div class="form-information-childs">
-                <h2>Crear una Cuenta</h2>
+                <h2>Створи обліковий запис</h2>
                 <div class="icons">
                     <i class='bx bxl-google'></i>
-                    <i class='bx bxl-github'></i>
-                    <i class='bx bxl-linkedin' ></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram-alt'></i>
                 </div>
-                <p>o usa tu email para registrarte</p>
+                <p>або скористайтеся електронною поштою для реєстрації</p>
                 <form class="form form-register" novalidate>
                     <div>
                         <label>
                             <i class='bx bx-user' ></i>
-                            <input type="text" placeholder="Nombre Usuario" name="userName" >
+                            <input type="text" placeholder="Нік користувача" name="userName" >
                         </label>
                     </div>
                     <div>
                         <label >
                             <i class='bx bx-envelope' ></i>
-                            <input type="email" placeholder="Correo Electronico" name="userEmail" >
+                            <input type="email" placeholder="Електронна пошта" name="userEmail" >
                         </label>
                     </div>
                    <div>
                         <label>
                             <i class='bx bx-lock-alt' ></i>
-                            <input type="password" placeholder="Contraseña" name="userPassword">
+                            <input type="password" placeholder="Пароль" name="userPassword">
                         </label>
                    </div>
                    
-                    <input type="submit" value="Registrarse">
-                    <div class="alerta-error">Todos los campos son obligatorios</div>
-                    <div class="alerta-exito">Te registraste correctamente</div>
+                    <input type="submit" value="Зареєструватись">
+                    <div class="alerta-error">Всі поля обов'язкові для заповнення</div>
+                    <div class="alerta-exito">Ви успішно зареєструвалися</div>
                 </form>
             </div>
         </div>
@@ -61,25 +61,25 @@
     <div class="container-form login hide">
         <div class="information">
             <div class="info-childs">
-                <h2>¡¡Bienvenido nuevamente!!</h2>
-                <p>Para unirte a nuestra comunidad por favor Inicia Sesión con tus datos</p>
+                <!-- <h2>¡¡Bienvenido nuevamente!!</h2> -->
+                <p>Щоб приєднатися до нашої спільноти, будь ласка, увійдіть зі своїми даними</p>
                 <input type="button" value="Registrarse" id="sign-up">
             </div>
         </div>
         <div class="form-information">
             <div class="form-information-childs">
-                <h2>Iniciar Sesión</h2>
+                <h2>Авторизуватися</h2>
                 <div class="icons">
                     <i class='bx bxl-google'></i>
-                    <i class='bx bxl-github'></i>
-                    <i class='bx bxl-linkedin' ></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram-alt'></i>
                 </div>
-                <p>o Iniciar Sesión con una cuenta</p>
+                <p>o або У війдіть за допомогою облікового запису</p>
                 <form class="form form-login"novalidate>
                     <div>
                         <label >
                             <i class='bx bx-envelope' ></i>
-                            <input type="email" placeholder="Correo Electronico" name="userPassword">
+                            <input type="email" placeholder="Correo Electronico" name="userEmail">
                         </label>
                     </div>
                     <div>
@@ -89,14 +89,15 @@
                         </label>
                     </div>
                     <input type="submit" value="Iniciar Sesión">
-                    <div class="alerta-error">Todos los campos son obligatorios</div>
-                    <div class="alerta-exito">Te registraste correctamente</div>
+                    <div class="alerta-error">Всі поля обов'язкові для заповнення</div>
+                    <div class="alerta-exito">Ви успішно ввійшли</div>
                 </form>
             </div>
         </div>
     </div>
     <script src="js/script.js"></script>
-    <script src="js/register.js"></script>
-    <script src="js/login.js"></script>
+    <script src="js/register.js" type="module"></script>
+    <script src="js/login.js" type="module"></script>
+
 </body>
 </html>

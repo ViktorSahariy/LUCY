@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEPTUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles-deshboard.css">
+</head>
+<body>
+    <nav>
+    <div class="container">
+        <h2 class="logo">Neptun</h2>
+        <div class="search-bar">
+            <i class='bx bx-search'></i>
+            <input type="search" placeholder="Пошук">
+        </div>
+        <div class="create">
+            <label class="btn btn-primary" for="create-post">Створити</label>
+            <div class="profile-photo">
+                <img src="./img/profile-7.jpg" alt="Imagen de una mujer blanco y negro">
+            </div>
+        </div>
+    </div>
+    </nav>
+    <!-- ----------MAIN---------- -->
+     <main>
+        <div class="container">
+            <!-- ========== LEFT ========== -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./img/profile-7.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Viktoria VIP</h4>
+                        <p class="text-muted">
+                            @VIKVIP
+                        </p>
+                    </div>
+                </a>
+                <!-- ---------- SIDEBAR ---------- -->
+                 <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class='bx bx-home'></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-compass' ></i></span><h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notification">
+                        <span><i class='bx bx-bell'><small class="notification-count">3</small></i></span><h3>Notifications</h3>
+                        <!-- ---------- NOTIFICATIONS POPUP -->
+                         <div class="notification-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./img/profile-4.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Pedro Gonsales</b> підтвердила вашу дружбу
+                                    <small class="text-muted">2 години тому</small>
+                                </div>
+                                <div class="profile-photo">
+                                    <img src="./img/profile-1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Raquel Gala</b> підтвердила вашу дружбу
+                                    <small class="text-muted">3 дні тому</small>
+                                </div>
+                                <div class="profile-photo">
+                                    <img src="./img/profile-7.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Viktoria Vip</b> підтвердила вашу дружбу
+                                    <small class="text-muted">2 дні тому</small>
+                                </div>
+                            </div>
+                         </div>
+                    </a>
+                    <a class="menu-item" id="message-notifications">
+                        <span><i class='bx bx-chat'><small class="notification-count">8</small></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-bookmarks'></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-line-chart'></i></span><h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-palette'></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-cog' ></i></span><h3>Settings</h3>
+                    </a> 
+                 </div>
+                 <!-- --------- END OF SIDEBAR ---------- -->
+                  <label for="create-post"  class="btn btn-primary">Опублікувати пост</label>
+            </div>
+            <!-- ----------  END OF LEFT ---------- -->
+
+
+
+
+
+
+            <!-- ========== MIDDLE ========== -->
+            <div class="middle">
+                <!-- ---------- STORIES ---------- -->
+                 <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./img/profile-7.jpg">
+                        </div>
+                        <p class="name">Твій пост</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./img/profile-1.jpg">
+                        </div>
+                        <p class="name">Твій пост</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./img/profile-3.jpg">
+                        </div>
+                        <p class="name">Твій пост</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./img/profile-4.jpg">
+                        </div>
+                        <p class="name">Твій пост</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./img/profile-6.jpg">
+                        </div>
+                        <p class="name">Твій пост</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./img/profile-8.jpg">
+                        </div>
+                        <p class="name">Твій пост</p>
+                    </div>
+                 </div>
+             <!-- ---------- END OF STORIES ---------- -->
+              <form class="create-post">
+                <div class="profile-photo">
+                    <img src="./img/profile-7.jpg">
+                </div>
+                <input type="text" placeholder="Про що ви думаєш сьогодні, Вікторія?" id="create-post">
+                <input type="submit" value="Post" class="btn btn-primary">
+              </form>  
+
+              <!-- ---------- FEEDS --------- -->
+              <div class="feeds">
+                <!-- ========== FEEDS ONE ========== -->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="./img/profile-8.jpg">
+                            </div>
+                            <div class="ingo">
+                                <h3>Lana Rose</h3>
+                                <small>London, 15 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class='bx bx-dots-horizontal-rounded'></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="./img/london.jpg">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class='bx bx-heart'></i></span>
+                            <span><i class='bx bx-comment'></i></span>
+                            <span><i class='bx bx-share-alt'></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class='bx bx-bookmark'></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./img/profile-1.jpg"></span>
+                        <span><img src="./img/profile-2.jpg"></span>
+                        <span><img src="./img/profile-3.jpg"></span>
+                        <p>Like by <b>Viktor Garcia</b> and <b> 2,341 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Lana Rose</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="harsh-tag">#lifestyle</span></p>
+                    </div>
+                    <div class="comments text-muted">View all 145 comments</div>
+                </div>
+                <!-- ========== END OF FEEDS ONE =========== -->
+                 <!-- ========== FEEDS TWO ========== -->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="./img/profile-3.jpg">
+                            </div>
+                            <div class="ingo">
+                                <h3>Laura Gala</h3>
+                                <small>Odesa, 25 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class='bx bx-dots-horizontal-rounded'></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="./img/fashion.jpg">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class='bx bx-heart'></i></span>
+                            <span><i class='bx bx-comment'></i></span>
+                            <span><i class='bx bx-share-alt'></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class='bx bx-bookmark'></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./img/profile-1.jpg"></span>
+                        <span><img src="./img/profile-2.jpg"></span>
+                        <span><img src="./img/profile-3.jpg"></span>
+                        <p>Like by <b>Viktor Garcia</b> and <b> 2,341 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Lana Rose</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="harsh-tag">#lifestyle</span></p>
+                    </div>
+                    <div class="comments text-muted">View all 145 comments</div>
+                </div>
+                 <!-- ========== END OF FEEDS TWO =========== -->
+              </div>
+              <!-- ========== END OF FEEDS =========== -->
+            </div>
+            <!-- ========== END OF MIDDLE =========== -->
+
+
+
+
+
+            <!-- ========== RIGHT ========== -->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Повідомлення</h4><i class='bx bxs-edit'></i>
+                    </div>
+                    <!-- ========== SEARCH BAR ========= -->
+                     <div class="search-bar">
+                        <i class='bx bx-search-alt-2' ></i>
+                        <input type="search" placeholder="Пошук повідомлення" id="message-search">
+                     </div>
+                     <!-- ========== MESSAGE CATEGORY ========= -->
+                      <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(2)</h6>
+                      </div>
+                      <!-- ========== MESSAGE ========= -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./img/profile-8.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Laura Gala</h5>
+                            <p class="text-muted">Just wok bruh</p>
+                        </div>
+                    </div> 
+										<!-- ========== MESSAGE ========= -->
+										<div class="message">
+											<div class="profile-photo">
+													<img src="./img/profile-4.jpg">
+											</div>
+											<div class="message-body">
+													<h5>Laura Gala</h5>
+													<p class="text-muted">Hello girl!</p>
+											</div>
+									</div> 
+									<!-- ========== MESSAGE ========= -->
+									<div class="message">
+										<div class="profile-photo">
+												<img src="./img/profile-1.jpg">
+												<div class="active"></div>
+										</div>
+										<div class="message-body">
+												<h5>Laura Gala</h5>
+												<p class="text-bold">Brithday tomorrow!</p>
+										</div>
+								</div> 
+                </div>
+                <!-- =========== END OF MESSAGES ========== -->
+
+
+                <!-- =========== FRIEND REQUESTS =========== -->
+                 <div class="friend-requests">
+									<h4>Requests</h4>
+									<div class="request">
+										<div class="info">
+											<div class="profile-photo">
+												<img src="./img/profile-8.jpg">
+											</div>
+											<div>
+												<h5>Laura Ortiz</h5>
+												<p class="text-muted">9 mutual friends</p>
+											</div>
+										 <div class="action">
+											<button class="btn btn-primary">
+													Accepte
+											</button>
+											<button class="btn">
+													Decline
+											</button>
+                 </div>
+            </div>
+        </div>
+     </main>
+</body>
+</html>
